@@ -8,3 +8,4 @@ const objetoPessoa = {
     idade: 32,
     nome: "Jose",
 };
+''
