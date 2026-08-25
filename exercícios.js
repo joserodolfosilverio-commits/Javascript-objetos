@@ -25,6 +25,17 @@ testar(
   "Exercício 1 - contarUnicos",
   contarUnicos([1, 2, 2, 3, 4, 4, 4, 5]),
   5
+const cliente = {
+    nome: "André",
+    idade: 32,
+    cpf:"1122233345",
+    email: "andre@dominio.com",
+};
+console.log(
+`O nome do cliente é ${cliente.nome} e essa pessoa tem ${cliente.idade} anos.`
+);
+
+console.log(`Os 3 primeiros digitos do CPF são ${cliente.cpf.substring(0, 3)}`);
 );
 
 
