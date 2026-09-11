@@ -5,9 +5,9 @@ const Cliente = {
     telefone: ["4488682718", "984626624"]
 };
 
-console.log (Cliente); [
+console.log (Cliente) [
 
-Cliente.endereço = {
+Cliente.enderecos = {
     rua: "Rua Joseph Climber",
     numero: 1337,
     apartamento: true,
@@ -16,4 +16,11 @@ Cliente.endereço = {
 
 ];
 
-console.log(Cliente.enderco);
+console.log (Cliente.enderecos);
+
+Cliente.enderecos.push({
+    rua:"R. Joseph Ladder",
+    numero: 404,
+    apartamento:false;
+});
+console.log(Cliente.enderecos);
