@@ -5,13 +5,15 @@ const Cliente = {
     telefone: ["4488682718", "984626624"]
 };
 
-console.log (Cliente);
+console.log (Cliente); [
 
 Cliente.endereço = {
     rua: "Rua Joseph Climber",
     numero: 1337,
     apartamento: true,
     complemento: "ap 934",
-};
+},
+
+];
 
 console.log(Cliente.enderco);
