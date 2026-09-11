@@ -14,3 +14,4 @@ Cliente.endereço = {
     complemento: "ap 934",
 };
 
+console.log(Cliente.enderco);
