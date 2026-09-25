@@ -1,4 +1,4 @@
-onst cliente = {
+nonst cliente = {
     nome: "Joao",
     idade: 24,
     email: "joao@firma.com",
